@@ -1,0 +1,243 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Body */
+
+body {
+    background-color: #f0f2f5;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Main container */
+
+.container {
+    width: 900px;
+    margin: 150px auto;
+
+    display: flex;
+}
+
+
+/* Left side */
+
+.left {
+    width: 50%;
+    padding-top: 50px;
+}
+
+
+/* Facebook logo */
+
+.left h1 {
+    color: #1877f2;
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+
+/* Description */
+
+.left p {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+
+/* Right side */
+
+.right {
+    width: 50%;
+}
+
+
+/* Login box */
+
+.login-box {
+    background-color: white;
+
+    width: 350px;
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    box-shadow: 0px 2px 10px gray;
+}
+
+
+/* Input boxes */
+
+input {
+    width: 100%;
+
+    padding: 15px;
+
+    margin-bottom: 12px;
+
+    box-sizing: border-box;
+
+    border: 1px solid #ddd;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+}
+
+
+/* Login button */
+
+.login {
+    width: 100%;
+
+    padding: 12px;
+
+    background-color: #1877f2;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 20px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* Login button hover */
+
+.login:hover {
+    background-color: #166fe5;
+}
+
+
+/* Forgotten password */
+
+.login-box a {
+    display: block;
+
+    text-align: center;
+
+    margin: 18px;
+
+    color: #1877f2;
+
+    text-decoration: none;
+}
+
+
+/* Horizontal line */
+
+hr {
+    border: 0;
+
+    border-top: 1px solid #ddd;
+
+    margin: 20px 0;
+}
+
+
+/* Create account button */
+
+.create {
+    display: block;
+
+    margin: auto;
+
+    padding: 13px 20px;
+
+    background-color: #42b72a;
+
+    color: white;
+
+    border: none;
+
+    border-radius: 6px;
+
+    font-size: 16px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+.create:hover {
+    background-color: #36a420;
+}
+
+
+/* Create page text */
+
+.page {
+    width: 390px;
+
+    text-align: center;
+
+    margin-top: 25px;
+
+    font-size: 14px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: white;
+
+    padding: 30px;
+
+    text-align: center;
+
+    color: #737373;
+
+    font-size: 13px;
+
+    line-height: 30px;
+}
+
+
+/* Mobile screen */
+
+@media (max-width: 700px) {
+
+    .container {
+        width: 90%;
+
+        margin: 50px auto;
+
+        display: block;
+
+        text-align: center;
+    }
+
+
+    .left {
+        width: 100%;
+    }
+
+
+    .right {
+        width: 100%;
+    }
+
+
+    .login-box {
+        width: 90%;
+
+        margin: 30px auto;
+    }
+
+
+    .page {
+        width: 100%;
+    }
+
+}
